@@ -1,0 +1,44 @@
+.head {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  background-color: cadetblue;
+}
+
+.Sign {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: url("2.jpeg");
+ }
+
+.controls {
+  margin-bottom: 50px;
+}
+
+ .inline {
+   display: inline-table;
+ }
+
+ .game {
+   margin-right: 200px;
+   vertical-align: top;
+ }
+
+ .difficulty {
+   margin-bottom: 50px;
+ }
