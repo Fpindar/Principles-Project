@@ -15,8 +15,8 @@
     $sql = "SELECT * FROM users WHERE username='".$username."' AND password='".$password."' LIMIT 1";
     $res = mysqli_query($conn, $sql);
     if(mysqli_num_rows($res) == 1) {
-      while($row = mysqli_fetch_array($res, MYSQL_ASSOC)) {
-        echo "You have successfully logged in. Hello, @".$row['username'];
+      while($row = mysqli_fetch_array($res, MYSQLI_ASSOC)) {
+        echo "You have successfully logged in. Hello, @".$row['username']." <a href='sudoku3.html'>Go to game</a>";
       }
       exit();
     } else {
